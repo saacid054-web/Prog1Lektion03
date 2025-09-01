@@ -13,6 +13,7 @@ public class Opgave05 {
     }
 
     public static double calculateFee(int price) {
-        return 0;
+
+        return 15000;
     }
 }
