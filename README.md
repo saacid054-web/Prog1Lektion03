@@ -60,7 +60,15 @@ mindre end 0 eller større end 6?
 
 ---
 
-### Opgave 4 - 
+### Opgave 4 - Sten, Saks, Papir
+
+Lav en applikation der beder bruger vælger 0 (sten), 1 (saks) eller 2 (papir).
+
+I sten, saks, papir, slår sten en saks, en saks slår papir og papir slår sten.
+
+Lad computeren generere et tilfældigt tal 0, 1 eller 2 og udskriv hvem der vandt, dig eller computeren. 
+
+Se RandomExample i example pakken linje 12 om hvordan man kan generer tilfældige heltal. 
 
 ---
 
