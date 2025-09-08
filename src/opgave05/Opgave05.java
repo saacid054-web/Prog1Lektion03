@@ -12,8 +12,27 @@ public class Opgave05 {
                 registrationFee + " i registreringsafgift.");
     }
 
-    public static double calculateFee(int price) {
+    public static double calculateFee(double price) {
+
+        if (price < 67_800) {
+
+            return 0;
+        } else if (price > 67_800 && price < 210_600) {
+
+            double price1 = (price - 67_800);
+            double price2 = price-price1;
+
+            price1 =  (price1*0.25);
+            price2 =  (price2 * 0.85);
+
+
+        } else {
+
+
+        }
+
 
         return 15000;
+
     }
 }
