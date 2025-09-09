@@ -9,6 +9,7 @@ public class Opgave03 {
         System.out.println("Indtast et tal mellem 0 og 6: ");
         int input = input1.nextInt();
 
+
         int day = input % 7;
 
         dag(day);
@@ -44,6 +45,11 @@ public class Opgave03 {
 
         } else if (day == 6) {
             System.out.println("Søndag");
+        }
+        else if(day > 6){
+
+            System.out.println("du indtastede et for stort tal");
+            System.exit(0);
         }
 
     }
