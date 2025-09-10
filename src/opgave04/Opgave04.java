@@ -18,10 +18,17 @@ public class Opgave04 {
         if (pc_slag == slag) {
             System.out.println("Uafgjort");
 
-        } else if (pc_slag == 0 && slag == 1 || pc_slag == 1 && slag == 2 || pc_slag == 2 && slag == 0) {
+        }
+        else if (slag > 2){
+
+            System.out.println("du skrev et for stort tal");
+
+
+        }else if (pc_slag == 0 && slag == 1 || pc_slag == 1 && slag == 2 || pc_slag == 2 && slag == 0) {
 
             System.out.println("Computeren vandt");
         }
+
         else {
             System.out.println("Du vandt");
         }
